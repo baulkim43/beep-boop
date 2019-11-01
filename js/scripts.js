@@ -1,12 +1,17 @@
 // business logic
 
 
-var countBack = function(number) {
-var exceptions = ["1", "2", "3"]
-var i;
-for (i = 0; i <= numberInputed.length; i++) {
-  console.log(text += numberInputed);
+var countBack = function(numberInputed) {
+console.log(numberInputed);
+
+var newArray = [];
+for (i = 0; i <= numberInputed; newArray.push(i++)) {
 }
+console.log(newArray);
+numberInputed = newArray;
+console.log(numberInputed);
+return numberInputed;
+
 }
 
 
@@ -19,9 +24,10 @@ for (i = 0; i <= numberInputed.length; i++) {
 $(document).ready(function() {
   $(".numberForm").submit(function(event) {
     event.preventDefault();
-    var numberInputed = $("#number").val().split("");
+    var numberInputed = parseInt($("#number").val());
     console.log(numberInputed);
     var result = countBack(numberInputed);
+    $("#result").show(result);
 
   });
 });

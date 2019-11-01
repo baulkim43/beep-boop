@@ -38,11 +38,11 @@ _Output: "0, Beep!, Boop!, I'm Sorry, Dave. I'm afraid I can't do that., 4, 5, 6
 
 ## Technologies Used
 
-_HTML_
-_CSS_
-_Bootstrap_
-_JavaScript_
-_jQuery_
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery_
 
 ### License
 
